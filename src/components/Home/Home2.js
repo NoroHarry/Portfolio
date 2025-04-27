@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/Mouad_Harimech_without_bg.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,12 +8,12 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import "./homeStyle.css"
 function Home2() {
   return (
       <Container fluid className="home-about-section" id="about">
         <Container>
-          <Row>
+          <Row style={{display:"flex" , alignItems:"center" , justifyContent:"space-around",  flexWrap:"wrap"}}>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
                 LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
@@ -51,9 +51,11 @@ function Home2() {
                 <b className="purple"> l'intégration et le déploiement continu</b>.
               </p>
             </Col>
-            <Col md={4} className="myAvtar">
+            <Col md={4} className="myAvtar" style={{display:"flex" , alignItems:"center" , justifyContent:"center", minWidth:"400px" , flexWrap:"wrap"}}>
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
+                <div className="img-back">
+                  <img src={myImg} className="profile-img" alt="avatar" />
+                </div>
               </Tilt>
             </Col>
           </Row>
