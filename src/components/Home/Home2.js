@@ -8,21 +8,22 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import "./homeStyle.css"
+import "./homeStyle.css";
+
 function Home2() {
   return (
       <Container fluid className="home-about-section" id="about">
         <Container>
-          <Row style={{display:"flex" , alignItems:"center" , justifyContent:"space-around",  flexWrap:"wrap"}}>
+          <Row style={{ display: "flex", alignItems: "center", justifyContent: "space-around", flexWrap: "wrap" }}>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                LAISSEZ-MOI <span className="purple"> ME PRÉSENTER </span>
+                LET ME <span className="purple"> INTRODUCE MYSELF </span>
               </h1>
               <p className="home-about-body">
-                Je suis <b className="purple">Mouad Harimech</b>, étudiant en développement web à ISTICG Berrechid.
-                Passionné par la création de solutions web innovantes, je maîtrise plusieurs technologies et outils modernes.
+                I am <b className="purple">Mouad Harimech</b>, a web development student at ISTICG Berrechid.
+                Passionate about creating innovative web solutions, I am skilled in various modern technologies and tools.
                 <br />
-                <br />Je suis à l'aise avec :
+                <br />I am comfortable with:
                 <i>
                   <b className="purple">
                     {" "}
@@ -31,27 +32,27 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                Mon expertise couvre le développement
+                My expertise includes
                 <i>
-                  <b className="purple"> Front-end et Back-end </b>
+                  <b className="purple"> Front-end and Back-end development </b>
                 </i>
-                , ainsi que l'utilisation de frameworks et bibliothèques modernes comme :
+                , as well as working with modern frameworks and libraries such as:
                 <i>
-                  <b className="purple"> React.js, React Native,Next.js, Express.js, Laravel, Bootstrap, jQuery ...</b>.
+                  <b className="purple"> React.js, React Native, Next.js, Express.js, Laravel, Bootstrap, jQuery ...</b>.
                 </i>
                 <br />
                 <br />
-                Je suis particulièrement intéressé par le
-                <b className="purple"> développement web full-stack </b>
-                et la gestion des bases de données avec
+                I am particularly interested in
+                <b className="purple"> full-stack web development </b>
+                and database management with
                 <i>
                   <b className="purple"> MySQL </b>.
                 </i>
-                J'aime aussi travailler sur des projets impliquant
-                <b className="purple"> l'intégration et le déploiement continu</b>.
+                I also enjoy working on projects involving
+                <b className="purple"> continuous integration and deployment</b>.
               </p>
             </Col>
-            <Col md={4} className="myAvtar" style={{display:"flex" , alignItems:"center" , justifyContent:"center", minWidth:"400px" , flexWrap:"wrap"}}>
+            <Col md={4} className="myAvtar" style={{ display: "flex", alignItems: "center", justifyContent: "center", minWidth: "400px", flexWrap: "wrap" }}>
               <Tilt>
                 <div className="img-back">
                   <img src={myImg} className="profile-img" alt="avatar" />
@@ -61,9 +62,9 @@ function Home2() {
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>RETROUVEZ-MOI</h1>
+              <h1>FIND ME ON</h1>
               <p>
-                N'hésitez pas à <span className="purple"> me contacter </span> sur :
+                Feel free to <span className="purple"> connect with me </span> on:
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
@@ -108,7 +109,7 @@ function Home2() {
                 </li>
               </ul>
               <p>
-                📩 Email : <b className="purple">mouadharimech1@gmail.com</b>
+                📩 Email: <b className="purple">mouadharimech1@gmail.com</b>
               </p>
             </Col>
           </Row>
