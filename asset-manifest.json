@@ -1,9 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ffb4e973.css",
-    "main.js": "/Portfolio/static/js/main.55ee089c.js",
+    "main.js": "/Portfolio/static/js/main.5c385e33.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/marketplace.png": "/Portfolio/static/media/marketplace.e716c6f0a868d0f5e673.png",
+    "static/media/travelApp.png": "/Portfolio/static/media/travelApp.40a3120687717467623c.png",
+    "static/media/realEstateAI.png": "/Portfolio/static/media/realEstateAI.06d724a2370591313af0.png",
+    "static/media/quizApp.png": "/Portfolio/static/media/quizApp.41e71b4bd05949716b43.png",
+    "static/media/landingPage.png": "/Portfolio/static/media/landingPage.76dd76e27509c17548b2.png",
+    "static/media/roomReservation.png": "/Portfolio/static/media/roomReservation.e09c41b0d778c55bf922.png",
+    "static/media/stockApp.png": "/Portfolio/static/media/stockApp.2c27a060e45940221efc.png",
+    "static/media/libraryApp.png": "/Portfolio/static/media/libraryApp.91815a39e5e39c8902e6.png",
     "static/media/Mouad_Harimech_without_bg.png": "/Portfolio/static/media/Mouad_Harimech_without_bg.951e085f5faa798b1364.png",
     "static/media/Mouad_Harimech .pdf": "/Portfolio/static/media/Mouad_Harimech .a62c76d9454e806223ab.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
@@ -12,12 +20,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.ffb4e973.css.map": "/Portfolio/static/css/main.ffb4e973.css.map",
-    "main.55ee089c.js.map": "/Portfolio/static/js/main.55ee089c.js.map",
+    "main.5c385e33.js.map": "/Portfolio/static/js/main.5c385e33.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb4e973.css",
-    "static/js/main.55ee089c.js"
+    "static/js/main.5c385e33.js"
   ]
 }
